@@ -1,0 +1,2 @@
+l="Engineering Physics"
+print(l[1:])
