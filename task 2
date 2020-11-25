@@ -1,0 +1,22 @@
+Exercise#2.1
+
+a=b=c=200
+div=a/10
+mul=b*50
+sum=c+60
+print("(a)", div)
+print("(b)", mul)
+print("(c)", sum)
+
+Exercise#2.2
+
+str="NIVAR"
+X=str.relace("V","G")
+print(X)
+
+Exercise#2.3
+
+a=9
+b=7.3
+print("a=",float(a))
+print("b=",int(b))
