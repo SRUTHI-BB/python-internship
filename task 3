@@ -1,0 +1,30 @@
+Exercise#3.1
+
+dict1={"Assam":"Dispur","Goa":"Panaji",}
+dict2={"Haryana":"Chandigarh","Gujarat":"Gandhinagar",}
+dict1.update(dict2)
+print (dict1)
+
+Exercise#3.2
+
+dict1={"Assam":"Dispur","Tamil Nadu":"Chennai"}
+del dict1["Assam"]
+print(dict1)
+
+Exercise#3.3
+
+Keys=["Name","Age"]
+Values=["Ivar",20]
+I=dict(zip(keys,values))
+print(I)
+
+Ecercise#3.4
+
+x=len({20,17,"Jon",29,32,"Bjorn",45,51,"Dany"})
+print("The length of set is:",x)
+
+Exercise#3.5
+
+set1={3,5,4,9,7,1}
+set2={4,2,7,6,5}
+print(set1-set2)
