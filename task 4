@@ -1,0 +1,22 @@
+Exercise#4.1
+
+X =[17,41,50,1,4,10,9,2]
+X.append(23)   #Add an item in to the list (using function)
+print(X)
+X.remove(41)   #Delete (using function)
+print(X)
+X.sort()
+print("Largest element is ",X[-1])    #The largest number from the list
+print("Smallest element is",X[0])     #The Smallest number from the list 
+
+Exercise#4.2
+
+X=(5,10,15,20,25,30,35,40)
+Y=reversed(X)
+print(tuple(Y))
+
+Exercise#4.3
+
+X= ("Blue","Violet","Red","Green")
+Y= list(X)
+print(Y)
