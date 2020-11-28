@@ -1,0 +1,23 @@
+Exercise#5.1
+
+a=int(input("Enter the value of a: "))
+b=int(input("Enter the value of b: "))
+def func(x,y):
+   A=x+y
+   B=x-y
+   C=x*y
+   D=x//y
+   print("Addition=",A)
+   print("Subtraction=",B)
+   print("Multiplication=",C)
+   print("Division=",D)
+func(a,b)   
+
+Exercise#5.2
+
+A=str(input("Enter Patient Name: "))
+B=98
+def covid(Patient_Name,Body_Temperature):
+   print("Patient Name is",A)
+   print("Patient Body Temperature is",B)
+covid(A,B)   
