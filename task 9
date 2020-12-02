@@ -1,0 +1,35 @@
+exercise#9.1
+
+Mul= lambda x, y : x * y
+print(Mul(5,2))
+
+exercise#9.2
+
+def fibo(count): 
+    list = [0, 1]
+    any(map(lambda _: list.append(sum(list[-2:])),range(2, count))) 
+    return list[:count]   
+print(fibo(10))
+
+exercise#9.3
+
+list1=[6,8,6,1,9,2,3,4]
+print("Original list:",list1)
+num=5
+print("Given number:", num)
+Mul_list=list(map(lambda number:number*num,list1))
+print("Result:")
+print(' '.join(map(str,Mul_list)))
+
+exercise#9.4
+
+set=[18,66,45,78,108,27,99,55,89]
+final=list(filter(lambda x:(x%9==0),set))
+print("Numbers divisible by 9 are",final)
+
+exercise#9.5
+
+list1 = [5,87,64,32,90,,55,69,89,67]
+print("set:",list1)
+n = list(filter(lambda x:(x%2==0),list1))
+print("Even numbers in the list: ",n)
