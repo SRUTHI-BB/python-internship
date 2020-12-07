@@ -1,0 +1,12 @@
+exercise#12
+
+import json
+print(json.dumps({"LICET":"AU","ECE":"egfin","chennai":"marina"})) #dict
+print(json.dumps(["professor","ivar","ubbe"]))                             #list
+print(json.dumps(("xioaqi","nivar","rangnar")))                     #tuple
+print(json.dumps("hello bye"))                                            #str
+print(json.dumps(278))                                                 #int
+print(json.dumps(82.0))                                                #float
+print(json.dumps(True))                                               #True
+print(json.dumps(False))                                              #False
+print(json.dumps(None))                                               #None
